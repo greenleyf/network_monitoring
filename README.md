@@ -5,7 +5,7 @@
 
 Written in BASH, this script allows you to monitor network traffic on your UNIX based system and get notified when a user resolves the FQDN specified.
 
-> It's worth noting that this script makes a fair amount of assumptions about your network and purview of this script itself. It is assumed that DHCP leases are not being used. A future iteration may include binding MAC addresses to variables in-memory.
+> It's worth noting that this script makes a fair amount of assumptions about your network and the purview of this script itself. It is assumed that DHCP leases are not being used. A future iteration may include binding MAC addresses to variables in-memory.
 
 ## How to run:
 
