@@ -1,0 +1,12 @@
+#/etc/systemd/system/tutorial.service 
+
+[Unit]
+Description=Tutorial
+After=network-online.target
+
+[Service]
+ExecStart=/root/tutorial.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
